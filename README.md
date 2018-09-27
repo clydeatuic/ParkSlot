@@ -1,6 +1,10 @@
 # ParkSlot
 Introduction to Parallel Array
 
+> Parallel Array: Also known as structure an array (SoA), multiple arrays of same size such that i-th element of each array is closely related and all i-th elements together represent an object or entity. [source](https://www.geeksforgeeks.org/parallel-array/)
+
+![testcase](https://github.com/clydeatuic/ParkSlot/blob/master/parkslot_parallelarray1.png)
+
 ```java
 import java.io.*;
 import java.util.*;
@@ -59,6 +63,11 @@ public class Solution {
         }
     }
 }
+```
+
+![testcase](https://github.com/clydeatuic/ParkSlot/blob/master/parkslot_parallelarray.png)
+
+```java
 /*
 SAMPLE INPUT:
 3
@@ -99,27 +108,6 @@ PARK TIME OUT: SEPTEMBER 24, 2018, 5PM
 */
 
 ```
-
-Sample Input | Sample Output
---- | ---
-3 | PARK SPACE ID: 100
-100 | PARK VEHICLE PLATE NUMBER: NO VALUE
-NO VALUE | PARK SPACE STATUS: false
-false | PARK TIME IN: NO VALUE
-NO VALUE | PARK TIME IN: NO VALUE
-NO VALUE | PARK TIME OUT: NO VALUE
-999 | 
-AAA 123 | PARK SPACE ID: 102
-true | PARK VEHICLE PLATE NUMBER: AAA 123
-SEPTEMBER 24, 2018, 10AM | PARK SPACE STATUS: true
-NO VALUE | PARK TIME IN: SEPTEMBER 24, 2018, 10AM
-100 | PARK TIME OUT: NO VALUE
-ABB 444 | 
-true | PARK SPACE ID: 103
-SEPTEMBER 24, 2018, 11AM | PARK VEHICLE PLATE NUMBER: ABB 444
-SEPTEMBER 24, 2018, 5PM | PARK TIME IN: SEPTEMBER 24, 2018, 11AM
- | PARK TIME OUT: SEPTEMBER 24, 2018, 5PM
- 
  
 <hr/>
 <img src="https://github.com/clydeatuic/CloudDatabase/blob/master/uic.png" height="150" />
